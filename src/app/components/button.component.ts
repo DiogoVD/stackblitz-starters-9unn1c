@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'my-button',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css'],
-  standalone: true
+  standalone: true,
 })
-export class myButton {}
+export class myButton {
+  buttonText = 'Click here';
+}
