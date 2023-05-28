@@ -13,6 +13,8 @@ import { myButton } from './app/components/button.component';
 })
 export class App {
   name = 'Angular';
+  buttonLabel: string = 'Carrinho';
+  buttonSecond: string = 'Add Favoritos';
 }
 
 bootstrapApplication(App);
