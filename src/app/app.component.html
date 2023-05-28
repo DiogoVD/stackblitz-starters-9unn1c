@@ -3,5 +3,8 @@
   Learn more about Angular
 </a>
 <helloApp> </helloApp>
-<my-button [Label]="buttonLabel"></my-button>
+<my-button Label="{{ buttonLabel }}"></my-button>
 <my-button [Label]="buttonSecond"></my-button>
+
+<my-button Label="Noticia"></my-button>
+<my-button [Label]="'Noticia'"></my-button>
