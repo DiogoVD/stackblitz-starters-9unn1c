@@ -3,8 +3,12 @@
   Learn more about Angular
 </a>
 <helloApp> </helloApp>
-<my-button Label="{{ buttonLabel }}"></my-button>
+<!-- data binding = associação de dados -->
+
+<!-- Property Binding -->
+<my-button [Label]="'Noticias'"></my-button>
 <my-button [Label]="buttonSecond"></my-button>
 
+<!-- Interpolação de dados -->
+<my-button Label="{{ buttonLabel }}"></my-button>
 <my-button Label="Noticia"></my-button>
-<my-button [Label]="'Noticia'"></my-button>

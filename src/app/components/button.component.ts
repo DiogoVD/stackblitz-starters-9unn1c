@@ -9,4 +9,8 @@ import { Component, Input } from '@angular/core';
 export class myButton {
   @Input() Label: string = '';
   //buttonText = 'Click here';
+
+  getAlert() {
+    alert(this.Label);
+  }
 }

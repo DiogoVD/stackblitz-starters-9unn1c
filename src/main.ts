@@ -15,6 +15,7 @@ export class App {
   name = 'Angular';
   buttonLabel: string = 'Carrinho';
   buttonSecond: string = 'Add Favoritos';
+
 }
 
 bootstrapApplication(App);
